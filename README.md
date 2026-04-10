@@ -5,40 +5,40 @@
 ## technique stacks :
   
   1. Data Preprocessing
-    - pandas
-    - numpy
-    - sklearn.preprocessing (LabelEncoder, StandardScaler)
-    - sklearn.compose (ColumnTransformer)
+  - pandas
+  - numpy
+  - sklearn.preprocessing (LabelEncoder, StandardScaler)
+  - sklearn.compose (ColumnTransformer)
     
   2. Data Split
-    - sklearn.model_selection (train_test_split, cross_val_score)
+  - sklearn.model_selection (train_test_split, cross_val_score)
     
   3. EDA & Visualization
-    - matplotlib.pyplot
-    - seaborn
+  - matplotlib.pyplot
+  - seaborn
     
   4. AutoML (Model Selection)
-    - pycaret.classification (setup, compare_models)
+  - pycaret.classification (setup, compare_models)
     
   5. ML Modeling
-    - sklearn.ensemble (RandomForestClassifier, AdaBoostClassifier, GradientBoostingClassifier)
-    - sklearn.linear_model (LogisticRegression)
-    - sklearn.svm (SVC)
-    - sklearn.neighbors (KNeighborsClassifier)
-    - lightgbm (LGBMClassifier)
-    - catboost (CatBoostClassifier)
+  - sklearn.ensemble (RandomForestClassifier, AdaBoostClassifier, GradientBoostingClassifier)
+  - sklearn.linear_model (LogisticRegression)
+  - sklearn.svm (SVC)
+  - sklearn.neighbors (KNeighborsClassifier)
+  - lightgbm (LGBMClassifier)
+  - catboost (CatBoostClassifier)
     
   6. Hyperparameter Tuning
-    - optuna
+  - optuna
     
   7. Model Evaluation
-    - sklearn.metrics (f1_score)
+  - sklearn.metrics (f1_score)
     
   8. Model Explainability
-    - shap (TreeExplainer, summary_plot)
+  - shap (TreeExplainer, summary_plot)
     
   9. Ensemble (Stacking)
-    - sklearn.ensemble (StackingClassifier)
+  - sklearn.ensemble (StackingClassifier)
 
 ## 데이터 출처
 
