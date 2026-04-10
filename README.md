@@ -101,7 +101,7 @@
 
   각 모델에 대한 objective function을 작성하고, 이를 이용해 optuna로 최적의 hyperparameter를 튜닝한다.
   조건은 다음과 같다.
-    1. 각 parameter 별로, n_estimators는 50~300, learning_rate는 0.01~0.5, max_depth는 3~15의 범위들로 통일한다.
+    1. 각 parameter 별로, n_estimators는 50 - 300, learning_rate는 0.01 - 0.5, max_depth는 3 - 15의 범위들로 통일한다.
     2. 코드 실행 시 마다 수치가 달라지는 걸 방지하기 위해 random_state를 이용해 시드값 42로 고정한다.
     3. 본 코드에 작성된 verbose=-1, verbose=0 은 코드 실행 시 결과의 가독성을 위해 불필요한 구문을 생략하는 parameter이며, 분석 결과에는 영향을 주지 않는다.
 
