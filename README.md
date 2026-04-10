@@ -89,7 +89,7 @@
 
   F1-score를 기준으로 하여, 상위 4개의 모델을 선정하기 위해, 먼저 AutoML을 실행하였으며, 해당하는 결과는 다음과 같다.
 
-  <style type="text/css">
+<style type="text/css">
 #T_0cdb3_row8_col1 {
   background-color: lightgreen;
 }
